@@ -1,6 +1,6 @@
 {
-  "name": "ethereumjs-wallet",
-  "version": "0.6.3",
+  "name": "newjs-wallet",
+  "version": "0.1.0",
   "description": "Utilities for handling Ethereum keys",
   "main": "index.js",
   "files": [
@@ -18,23 +18,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/ethereumjs-wallet.git"
+    "url": "https://github.com/VieYang/newjs-wallet.git"
   },
   "keywords": [
     "ethereum",
     "wallets",
     "keys"
   ],
-  "author": "Alex Beregszaszi <alex@rtfs.hu>",
+  "author": "VieYang <yangchenzhong@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-wallet/issues"
+    "url": "https://github.com/VieYang/newjs-wallet/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-wallet",
+  "homepage": "https://github.com/VieYang/newjs-wallet",
   "dependencies": {
     "aes-js": "^3.1.1",
     "bs58check": "^2.1.2",
-    "ethereumjs-util": "^6.0.0",
+    "newchainjs-util": "^0.1.1",
     "hdkey": "^1.1.1",
     "randombytes": "^2.0.6",
     "safe-buffer": "^5.1.2",

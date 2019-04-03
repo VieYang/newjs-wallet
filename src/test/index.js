@@ -2,7 +2,7 @@ var assert = require('assert')
 var Buffer = require('safe-buffer').Buffer
 var Wallet = require('../')
 var Thirdparty = require('../thirdparty.js')
-var ethUtil = require('ethereumjs-util')
+var ethUtil = require('newchainjs-util')
 
 var fixturePrivateKey = 'efca4cdd31923b50f4214af5d2ae10e7ac45a5019e9431cc195482d707485378'
 var fixturePrivateKeyStr = '0x' + fixturePrivateKey
@@ -287,7 +287,7 @@ describe('.fromKryptoKit()', function () {
 
 describe('.fromQuorumWallet()', function () {
   it('should work', function () {
-    var wallet = Thirdparty.fromQuorumWallet('testtesttest', 'ethereumjs-wallet')
+    var wallet = Thirdparty.fromQuorumWallet('testtesttest', 'newjs-wallet')
     assert.strictEqual(wallet.getAddressString(), '0x1b86ccc22e8f137f204a41a23033541242a48815')
   })
 })
